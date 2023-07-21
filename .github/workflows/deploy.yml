@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-pages-artifact@v2.0.0
         with:
           name: Production files
-          path: /dist
+          path: ./dist
   deploy:
     name: Deploy
     needs: build
